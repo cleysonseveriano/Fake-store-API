@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#produtos ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+}
+
+#produtos .col-9 ul li{
+  width: 32%;
+
+}
+
+#produtos .card-title, #produtos .card-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  white-space: pre-wrap;
+
+}
+
+#produtos .card-text{
+  -webkit-line-clamp: 3;
+
+}
+
+#produtos .card img{
+  object-fit: contain;
+  height: 250px;
+  padding: 16px;
+}
+
+#categorias li h6{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#categorias li span{
+  display: block;
+  line-height: 26px;
+}
